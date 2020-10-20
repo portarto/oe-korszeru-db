@@ -37,7 +37,7 @@ OK
 127.0.0.1:6379> rpop MyList
 "1"
 ```
-#Állítsa le a szervert úgy, hogy az ne mentse el a memóriából az adatokat a diszkre.
+# Állítsa le a szervert úgy, hogy az ne mentse el a memóriából az adatokat a diszkre.
 ```
 127.0.0.1:6379> flushall
 OK
