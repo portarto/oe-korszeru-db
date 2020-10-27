@@ -39,9 +39,7 @@ OK
 ```
 # Állítsa le a szervert úgy, hogy az ne mentse el a memóriából az adatokat a diszkre.
 ```
-127.0.0.1:6379> flushall
-OK
 127.0.0.1:6379> keys *
 (empty list or set)
-127.0.0.1:6379> shutdown
+127.0.0.1:6379> shutdown NOSAVE
 ```
