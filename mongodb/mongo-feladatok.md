@@ -13,7 +13,21 @@
 `db.movieDetails.find({runtime : { $gte: 90, $lt: 130 }}, { title: 1, genres: 1 }).sort({ runtime: 1 }).limit(3)`
  
 ## 4. Mennyi ideig tartana megnézni adott évben megjelent összes filmet? Listázd ki évek szerint csoportosítva, év szerinti csökkenő sorrendben a filmek összesített hosszát.
+```
+db.movieDetails.aggregate([
+  {
+      $group: {
+      _id: "$year",
+      countA: { $sum: "$runtime" }
+    }
+  },
+  {
+    $sort: { runtime: -1 }
+  }
+])
+```
  
 ## 4. Az összes 90 perc hosszúságú film hosszát változtasd meg 95 percre. Az eredményt lekérdezéssel ellenőrizd.
+
  
 ## 5. Töröld az első olyan filmet, ahol a metacritic értéke nagyobb, mint 90. Az eredményt lekérdezéssel ellenőrizd.
