@@ -10,6 +10,7 @@
 `db.movieDetails.find({runtime : { $gte: 90, $lt: 130 }}).sort({ runtime: 1 })`
 
 ## 3. Listázd az első 3 filmnek a címét és stílusait (genres). Az _id mező ne jelenjen meg!
+`db.movieDetails.find({runtime : { $gte: 90, $lt: 130 }}, { title: 1, genres: 1 }).sort({ runtime: 1 }).limit(3)`
  
 ## 4. Mennyi ideig tartana megnézni adott évben megjelent összes filmet? Listázd ki évek szerint csoportosítva, év szerinti csökkenő sorrendben a filmek összesített hosszát.
  
