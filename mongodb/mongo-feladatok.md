@@ -4,10 +4,11 @@
 `db.movieDetails.find()`
 
 ## 2.a. Listázd azon filmeket, amelyeknek a hossza 90 és 130 perc közötti (mindkét határ inkluzív), és a stílusai között megtalálható a Drama.
-`db.movieDetails.find({runtime : { $gte : 90, $lt : 130 }})`
+`db.movieDetails.find({runtime : { $gte: 90, $lt: 130 }})`
 
 ## 2.b. Az előző lekérdezést módosítsd úgy, hogy hossz szerinti növekvő sorrendben jelenjenek meg.
- 
+`db.movieDetails.find({runtime : { $gte: 90, $lt: 130 }}).sort({ runtime: 1 })`
+
 ## 3. Listázd az első 3 filmnek a címét és stílusait (genres). Az _id mező ne jelenjen meg!
  
 ## 4. Mennyi ideig tartana megnézni adott évben megjelent összes filmet? Listázd ki évek szerint csoportosítva, év szerinti csökkenő sorrendben a filmek összesített hosszát.
