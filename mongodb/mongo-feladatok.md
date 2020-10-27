@@ -1,6 +1,6 @@
 # 1. Töltsd be a loadMovieDetailsDataset.js-t, a további feladatok erre az adathalmazra vonatkoznak. Ha a labor hátralevő részében grafikus felületen szeretnél dolgozni, akkor telepítsd a Robo3T-t. (Segítség a laborjegyzetben.)
 `load('/home/itsh/Downloads/loadMovieDetailsDataset.js')`
-## ellenőrzés:
+### ellenőrzés:
 `db.movieDetails.find()`
 
 # 2.a. Listázd azon filmeket, amelyeknek a hossza 90 és 130 perc közötti (mindkét határ inkluzív), és a stílusai között megtalálható a Drama.
