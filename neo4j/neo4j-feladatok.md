@@ -28,6 +28,14 @@ MATCH (p:Person)-[r:ACTED_IN]->(m:Movie {title: "Cloud Atlas"})
 return p.name, r.roles
 ``` 
 
-## 6. Hozz létre egy új Movie node-ot, amelynek a címe "Harry Potter and the Prisoner of Azkaban", megjelenési éve 2004. 
+## 6. Hozz létre egy új Movie node-ot, amelynek a címe "Harry Potter and the Prisoner of Azkaban", megjelenési éve 2004.
+```
+CREATE (
+  m:Movie {
+    title: "Harry Potter and the Prisoner of Azkaban",
+    released: 2004
+  }
+) return m;
+```
  
 ## 7. Hozz létre egy új Person node-ot is, amelynek neve „Daniel Radcliffe”, születési éve 1989. A két node között hozz létre „ACTED_IN” kapcsolatot.
