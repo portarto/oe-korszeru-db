@@ -39,3 +39,28 @@ CREATE (
 ```
  
 ## 7. Hozz létre egy új Person node-ot is, amelynek neve „Daniel Radcliffe”, születési éve 1989. A két node között hozz létre „ACTED_IN” kapcsolatot.
+```
+CREATE (
+  p:Person {
+    name: "Daniel Radcliffe",
+    born: 1989
+  }
+)
+```
+
+```
+MERGE (
+  p:Person {
+    name: "Daniel Radcliffe",
+    born: 1989
+  }
+)-[
+  r:ACTED_IN {
+    roles: ["Harry Potter"]
+  }
+]->(
+  m:Movies {
+    title: "Harry Potter and the Prisoner of Azkaban"
+  }
+) return p, r, m;
+```
