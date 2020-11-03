@@ -45,22 +45,20 @@ CREATE (
     name: "Daniel Radcliffe",
     born: 1989
   }
-)
+) return p
 ```
 
 ```
-MERGE (
-  p:Person {
-    name: "Daniel Radcliffe",
-    born: 1989
-  }
-)-[
+MATCH (p:Person {name: "Daniel Radcliffe"} )
+MATCH (m:Movie {title: "Harry Potter and the Prisoner of Azkaban"})
+MERGE (p)-[
   r:ACTED_IN {
     roles: ["Harry Potter"]
   }
-]->(
-  m:Movies {
-    title: "Harry Potter and the Prisoner of Azkaban"
-  }
-) return p, r, m;
+]->(m) return p, r, m;
+```
+
+### ellenőrzés:
+```
+MERGE (p:Person {name: "Daniel Radcliffe"})-[r:ACTED_IN {roles: ["Harry Potter"]}]->(m:Movie {title: "Harry Potter and the Prisoner of Azkaban"}) return p, r, m;
 ```
