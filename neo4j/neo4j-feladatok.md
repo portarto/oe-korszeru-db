@@ -6,4 +6,5 @@
 MATCH (n:Person)
 WHERE n.born > 1950
 return n.name
+ORDER BY n.name
 ```
