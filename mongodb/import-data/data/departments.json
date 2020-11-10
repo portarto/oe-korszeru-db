@@ -1,0 +1,256 @@
+{
+  "items": [{
+      "department_id": 20,
+      "department_name": "Marketing",
+      "manager_id": 201,
+      "street_address": "147 Spadina Ave",
+      "postal_code": "M5V 2L7",
+      "city": "Toronto",
+      "state_province": "Ontario",
+      "country_name": "Canada",
+      "region_name": "Americas"
+    }, {
+      "department_id": 70,
+      "department_name": "Public Relations",
+      "manager_id": 204,
+      "street_address": "Schwanthalerstr. 7031",
+      "postal_code": "80925",
+      "city": "Munich",
+      "state_province": "Bavaria",
+      "country_name": "Germany",
+      "region_name": "Europe"
+    }, {
+      "department_id": 40,
+      "department_name": "Human Resources",
+      "manager_id": 203,
+      "street_address": "8204 Arthur St",
+      "city": "London",
+      "country_name": "United Kingdom",
+      "region_name": "Europe"
+    }, {
+      "department_id": 80,
+      "department_name": "Sales",
+      "manager_id": 145,
+      "street_address": "Magdalen Centre, The Oxford Science Park",
+      "postal_code": "OX9 9ZB",
+      "city": "Oxford",
+      "state_province": "Oxford",
+      "country_name": "United Kingdom",
+      "region_name": "Europe"
+    }, {
+      "department_id": 60,
+      "department_name": "IT",
+      "manager_id": 103,
+      "street_address": "2014 Jabberwocky Rd",
+      "postal_code": "26192",
+      "city": "Southlake",
+      "state_province": "Texas",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 50,
+      "department_name": "Shipping",
+      "manager_id": 121,
+      "street_address": "2011 Interiors Blvd",
+      "postal_code": "99236",
+      "city": "South San Francisco",
+      "state_province": "California",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 10,
+      "department_name": "Administration",
+      "manager_id": 200,
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 30,
+      "department_name": "Purchasing",
+      "manager_id": 114,
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 90,
+      "department_name": "Executive",
+      "manager_id": 100,
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 100,
+      "department_name": "Finance",
+      "manager_id": 108,
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 110,
+      "department_name": "Accounting",
+      "manager_id": 205,
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 120,
+      "department_name": "Treasury",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 130,
+      "department_name": "Corporate Tax",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 140,
+      "department_name": "Control And Credit",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 150,
+      "department_name": "Shareholder Services",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 160,
+      "department_name": "Benefits",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 170,
+      "department_name": "Manufacturing",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 180,
+      "department_name": "Construction",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 190,
+      "department_name": "Contracting",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 200,
+      "department_name": "Operations",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 210,
+      "department_name": "IT Support",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 220,
+      "department_name": "NOC",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 230,
+      "department_name": "IT Helpdesk",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 240,
+      "department_name": "Government Sales",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 250,
+      "department_name": "Retail Sales",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 260,
+      "department_name": "Recruiting",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }, {
+      "department_id": 270,
+      "department_name": "Payroll",
+      "street_address": "2004 Charade Rd",
+      "postal_code": "98199",
+      "city": "Seattle",
+      "state_province": "Washington",
+      "country_name": "United States of America",
+      "region_name": "Americas"
+    }
+  ]
+}

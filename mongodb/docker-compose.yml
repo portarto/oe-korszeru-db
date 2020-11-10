@@ -12,6 +12,25 @@ services:
     volumes:
       - korszeru-db-mongo-data:/data/configdb
       - ./data:/usr/shared-data
+  #########################
+  ## Data importer
+  #########################
+  korszeru-mongo-data-importer:
+    image: korszeru-mongo-data-importer
+    build:
+      context: ./import-data/
+      dockerfile: Dockerfile
+    environment:
+      PORT: 8885
+      MONGO_URL: 'korszeru-mongo'
+    restart: always
+    ports:
+      - 8885:8885
+    depends_on:
+      - korszeru-mongo
+    volumes:
+      - ./import-data/data:/app/data
+    
 
 volumes:
   korszeru-db-mongo-data:
