@@ -12,3 +12,20 @@
 - if you want to use the **import-data tool** locally just run the following commands under "import-data" folder:
   - `npm i`
   - `npm start` or `npm run dev`
+
+# Use this command in mongo to check the results:
+```
+dbs
+  .departments
+  .aggregate([{
+    $lookup: {
+      from: "employees",
+      localField: "department_id",
+      foreignField: "department_id",
+      as: "employees"
+    }},{
+      $merge: {into: "departments"}
+    }
+  ])
+;
+```
