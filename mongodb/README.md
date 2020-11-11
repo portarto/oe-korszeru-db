@@ -9,6 +9,6 @@
     - it will create the "somescheme" collection in mongodb
 
 # Locally
-- if you want to use the **import-data tool** this locally just run the following commands under "import-data" folder:
+- if you want to use the **import-data tool** locally just run the following commands under "import-data" folder:
   - `npm i`
   - `npm start` or `npm run dev`
