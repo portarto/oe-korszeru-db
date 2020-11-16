@@ -1,5 +1,10 @@
 ## 1. Indítsd el a neo4j szolgáltatást, lépj be a Neo4J Browserbe, és töltsd be a movie-graph példaadatokat.
-`...`
+- `docker-compose up`
+- [http://localhost:7474/browser/](http://localhost:7474/browser/)
+- nem kell jelszó, csak login
+- végül
+  - :play movie-graph
+  - (lapozás jobbra, kattintás a kódra, futtatás)
 
 ## 2. Listázzuk az 1950 után született színészek nevét növekvő sorrendben.
 ```

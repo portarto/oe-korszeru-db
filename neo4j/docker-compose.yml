@@ -11,6 +11,8 @@ services:
       - 7687:7687
     volumes:
       - korszeru-db-neo4j-data:/data
+    environment:
+      NEO4J_AUTH: 'none'
 
 volumes:
   korszeru-db-neo4j-data:
