@@ -2,12 +2,12 @@
 ## zh: 13. hét (2020 december 1)
  - 90 perces lesz
 ## pót zh
- - 14. hét (2020 december 8)
+ - 14 hét (2020 december 8)
 ## elővizsga
- - 14. hétmoodle-s teszt elméletből
+ - 14 hétmoodle-s teszt elméletből
  - egyáltalán nincs szóbeli rész
 ---
-#Projektmunka
+# Projektmunka
  - határidő: 13. hét vége 23:59 (december 6 23:59)
  - ha nem lett befejezve, akkor sincs gond, akkor január 5.-ig lehet pótolni
  - korszerű db akkor is teljesíthető, ha nincs meg a projektmunka
